@@ -1,0 +1,92 @@
+
+
+
+
+
+.stage {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100px;
+    height: 0px;
+    z-index: 10;
+    -webkit-perspective: 2000px;
+    -webkit-perspective-origin: 50% -640px;
+}
+
+figure {
+    display: block;
+    opacity:0;
+    position: absolute;
+    width: 19px;
+    height: 200px;
+    background-color: var(--color4);
+}
+
+.cube {
+    -webkit-transform-style: preserve-3d;
+    
+}
+
+figure {
+    -webkit-transform-origin: 50% 50% 0;
+    border: 1px solid black;
+    
+}
+
+.front {
+    -webkit-transform: translateZ(10px);
+}
+
+.top {
+    -webkit-transform: rotateX(90deg) translateZ(10px);
+    height: 19px;
+}
+
+.back {
+    -webkit-transform: rotateY(180deg) translateZ(10px);
+}
+
+.left {
+    -webkit-transform: rotateY(-90deg) translateZ(10px);
+}
+
+.right {
+    -webkit-transform: rotateY(90deg) translateZ(10px);
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotateY(0);
+    }
+
+    100% {
+        -webkit-transform: rotateY(30deg);
+    }
+}
+
+@-webkit-keyframes opacity {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.cube {
+    -webkit-transform: rotateY(-30deg);
+}
+.oblast:hover .cube {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 1s 1 ease-in-out forwards;
+}
+
+.cube:hover figure {
+            animation: opacity 1s 1 ease-in-out forwards;
+}
+
+.chelab_h1 {
+    height: 100px;/*-308px;*/  
+}

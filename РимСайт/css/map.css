@@ -1,0 +1,415 @@
+
+
+
+.map {
+    padding:  0;
+    width: 755px;
+    position: relative;
+}
+
+    .map img {
+        width: 100%;
+        height: auto;
+       
+        margin: 0 auto;
+    }
+
+.map svg {
+        padding:0;
+        background-color:var(--color3);
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+#map-wraper {
+    height:700px;
+    border: 1px solid green;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#block-map {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color3);
+}
+.oblast {
+    z-index:1;
+    fill: var(--color3);
+    stroke: var(--color1);
+    stroke-width: 5px;
+    cursor: pointer;
+    pointer-events: all;
+}
+    
+.oblast:hover {
+        /*filter: sepia(150%);*/
+        fill:var(--color4);
+       
+    }
+#oblast-chelab1.active {
+    top: -308px;
+    left: 17px;
+}
+#oblast-chelab2.active {
+    top: -308px;
+    left: 67px;
+}
+#oblast-kurgan1.active {
+    top: -280px;
+    left: 125px;
+}
+#oblast-kurgan2.active{
+    top: -280px;
+    left: 175px;
+}
+#oblast-sverdlovsk1.active {
+    top: -393px;
+    left: 142px;
+}
+#oblast-sverdlovsk2.active {
+    top: -393px;
+    left: 192px;
+}
+#oblast-tymen1.active {
+    top: -285px;
+    left: 226px;
+}
+#oblast-tymen2.active {
+    top: -285px;
+    left: 276px;
+}
+#oblast-mansisk1.active {
+    top: -405px;
+    left: 321px;
+}
+#oblast-mansisk2.active {
+    top: -405px;
+    left: 371px;
+}
+#oblast-nensk1.active {
+    top: -493px;
+    left: 500px;
+}
+
+#oblast-nensk2.active {
+    top: -493px;
+    left: 550px;
+}
+
+#chelab_cub1.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.8s 1 ease-in-out forwards;
+}
+#chelab_f1.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+#chelab_f2.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+#chelab_f3.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+#chelab_f4.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+#chelab_cub2.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.5s 1 ease-in-out forwards;
+}
+#chelab_f11.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#chelab_f22.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#chelab_f33.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#chelab_f44.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+
+
+
+
+#kurgan_cub1.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.8s 1 ease-in-out forwards;
+}
+
+#kurgan_f1.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#kurgan_f2.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#kurgan_f3.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#kurgan_f4.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#kurgan_cub2.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.5s 1 ease-in-out forwards;
+}
+
+#kurgan_f11.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#kurgan_f22.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#kurgan_f33.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#kurgan_f44.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+
+
+#sverdlovsk_cub1.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.8s 1 ease-in-out forwards;
+}
+
+#sverdlovsk_f1.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#sverdlovsk_f2.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#sverdlovsk_f3.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#sverdlovsk_f4.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#sverdlovsk_cub2.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.5s 1 ease-in-out forwards;
+}
+
+#sverdlovsk_f11.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#sverdlovsk_f22.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#sverdlovsk_f33.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#sverdlovsk_f44.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+
+
+
+#tymen_cub1.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.8s 1 ease-in-out forwards;
+}
+
+#tymen_f1.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#tymen_f2.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#tymen_f3.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#tymen_f4.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#tymen_cub2.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.5s 1 ease-in-out forwards;
+}
+
+#tymen_f11.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#tymen_f22.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#tymen_f33.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#tymen_f44.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+
+
+
+#mansisk_cub1.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.8s 1 ease-in-out forwards;
+}
+
+#mansisk_f1.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#mansisk_f2.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#mansisk_f3.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#mansisk_f4.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#mansisk_cub2.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.5s 1 ease-in-out forwards;
+}
+
+#mansisk_f11.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#mansisk_f22.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#mansisk_f33.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#mansisk_f44.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+
+
+#nensk_cub1.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.8s 1 ease-in-out forwards;
+}
+
+#nensk_f1.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#nensk_f2.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#nensk_f3.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#nensk_f4.active {
+    animation: opacity 1.1s 1 ease-in-out forwards;
+}
+
+#nensk_cub2.active {
+    animation-fill-mode: forwards;
+    -webkit-animation: rotate 0.5s 1 ease-in-out forwards;
+}
+
+#nensk_f11.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#nensk_f22.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#nensk_f33.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+#nensk_f44.active {
+    animation: opacity 0.5s 1 ease-in-out forwards;
+}
+
+
+
+.oblast {
+    color: var(--color1);
+    position: relative;
+    height: 0;
+}
+#map-wraper div p {
+   
+    z-index:-1;
+    display: inline-block;
+    height: 15px;
+    justify-content: center;
+    text-align:center;
+}
+.cube{
+    z-index:10;
+}
+.stage{
+  top:-500px;
+}
+
+
+
+
+
+.oblast-chelab {
+    top: -135px;
+    left: 50px;
+}
+.oblast-kurgan{
+    top:-118px;
+    left:150px;
+}
+.oblast-sverdlovsk {
+    top: -235px;
+    left: 150px;
+}
+.oblast-tymen{
+    top:-130px;
+    left:260px;
+}
+.oblast-mansisk {
+    top: -265px;
+    left: 320px;
+}
+.oblast-nensk {
+    top: -365px;
+    left: 515px;
+}

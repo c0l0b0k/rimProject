@@ -1,0 +1,64 @@
+:root {
+    --red-hue: 360;
+    --blue-hue: 240;
+    --green-hue: 120;
+    --main-hue: var(--red-hue);
+    --theme-darkness: 1;
+    --color1: #C0DCCE;
+    --color2: #D5C9B1;
+    --color3: #5F978E;
+    --color4: #E15858;
+    
+    /*--nav-bg-color: hsl(var(--main-hue), 50%, 50%);
+    --nav-text-color: hsl(var(--main-hue), 50%, 10%);
+    --container-bg-color: hsl(var(--main-hue), 50%, 95%);
+    --content-text-color: hsl(var(--main-hue), 50%, 50%);
+    --title-color: hsl(--main-hue, 50%, 20%);
+    --footer-bg-color: hsl(var(--main-hue), 93%, 88%);
+    --button-text-color: hsl(var(--main-hue), 50%, 20%);*/
+    filter: brightness(var(--theme-darkness));
+}
+
+    :root[theme='theme1'] {
+        --red-hue: 360;
+        --blue-hue: 240;
+        --green-hue: 120;
+        --main-hue: var(--blue-hue);
+        --theme-darkness: 1;
+        --color1: #A10115;
+        --color2: #D72C16;
+        --color3: #F0EFEA;
+        --color4: #C1B2B5;
+        
+        /*filter: invert(1) brightness(var(--theme-darkness));*/
+    }
+    :root[theme='theme2'] {
+        --red-hue: 360;
+        --blue-hue: 240;
+        --green-hue: 120;
+        --main-hue: var(--blue-hue);
+        --theme-darkness: 1;
+        --color1: #FE7A47;
+        --color2: #FCFDFF;
+        --color3: #D84030;
+        --color4: #F4CA98;
+        
+        /*filter: invert(1) brightness(var(--theme-darkness));*/
+    }
+    :root[theme='theme3'] {
+        --red-hue: 360;
+        --blue-hue: 240;
+        --green-hue: 120;
+        --main-hue: var(--blue-hue);
+        --theme-darkness: 1;
+        --color1: #26260D;
+        --color2: #131306;
+        --color3: #BFBF40;
+        --color4: #FFFFFF;
+        
+        /*filter: invert(1) brightness(var(--theme-darkness));*/
+    }
+    
+
+
+
