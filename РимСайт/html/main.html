@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="../css/animationForHeader.css" />
     <link rel="stylesheet" href="../css/rightSideBar.css" />
     <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/map.css"/>
-    <link rel="stylesheet" href="../css/cubesMap.css"/>
+    <link rel="stylesheet" href="../css/map.css" />
+    <link rel="stylesheet" href="../css/cubesMap.css" />
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name=viewport content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/acordeon.js"</script>
     <script src="../js/scriptTheme.js"></script>
-    
+
 
 </head>
 
@@ -27,35 +27,35 @@
 
     <nav class="nav">
         <!--
-        Ìåòêà ñ èìåíåì `id` ÷åêáîêñà â `for` àòðèáóòå
-        Ñèìâîë Unicode 'TRIGRAM FOR HEAVEN' (U+2630)
-        Ïóñòîé àòðèáóò `onclick` èñïîëüçóåì äëÿ èñïðàâëåíèÿ áàãà â iOS < 6.0
-        Ñì: http://timpietrusky.com/advanced-checkbox-hack
+        Метка с именем `id` чекбокса в `for` атрибуте
+        Символ Unicode 'TRIGRAM FOR HEAVEN' (U+2630)
+        Пустой атрибут `onclick` используем для исправления бага в iOS < 6.0
+        См: http://timpietrusky.com/advanced-checkbox-hack
         -->
         <label for="nav-toggle" class="nav-toggle"></label>
         <!--
-        Çäåñü ðàçìåùàåòå ëþáóþ ðàçìåòêó,
-        åñëè ýòî ìåíþ, òî ñêîðåå âñåãî íåóïîðÿäî÷åííûé ñïèñîê <ul>
+        Здесь размещаете любую разметку,
+        если это меню, то скорее всего неупорядоченный список <ul>
         -->
         <h2 class="logo">
-            <a cursor="default">Ìåíþ</a>
+            <a cursor="default">Меню</a>
         </h2>
 
         <ul id="menu">
             <li>
-                <a href="" class="deactive"><img src="icons8-folder-16.png" alt="">Âûáîð òåìû ñàéòà</a>
+                <a href="" class="deactive"><img src="icons8-folder-16.png" alt="">Выбор темы сайта</a>
                 <ul>
                     <li>
-                        <input type="button" value="Îñíîâíàÿ" id="toggle-theme" />
+                        <input type="button" value="Основная" id="toggle-theme" />
                     </li>
-                    <li><input type="button" value="Çèìíèå êðàñêè" id="toggle-theme1" /></li>
-                    <li><input type="button" value="Êëóáíèêà ñî ñëèâêàìè" id="toggle-theme2" /></li>
-                    <li><input type="button" value="Ò¸ìíàÿ òåìà" id="toggle-theme3" /></li>
+                    <li><input type="button" value="Зимние краски" id="toggle-theme1" /></li>
+                    <li><input type="button" value="Клубника со сливками" id="toggle-theme2" /></li>
+                    <li><input type="button" value="Тёмная тема" id="toggle-theme3" /></li>
                 </ul>
             </li>
             <li>
-                <a href="" class="deactive"><img src="icons8-folder-16.png" alt="">Ðàçäåë 2</a>
-                </li>
+                <a href="" class="deactive"><img src="icons8-folder-16.png" alt="">Раздел 2</a>
+            </li>
         </ul>
     </nav>
     <input type="checkbox" id="nav-toggle" hidden>
@@ -64,10 +64,10 @@
 
             <svg viewBox="0 0 1400 300">
                 <symbol id="s-text">
-                    <text text-anchor="middle" x="50%" y="20%">Ïîñëåäñòâèÿ êîðîíàêðèçèñà</text>
-                    <text text-anchor="middle" x="50%" y="44%">â ðåãèîíàõ Óðàëüñêîãî</text>
-                    <text text-anchor="middle" x="50%" y="68%">Ôåäåðàëüíîãî Îêðóãà</text>
-                    <text text-anchor="middle" x="50%" y="92%">äëÿ ðûíêà òðóäà</text>
+                    <text text-anchor="middle" x="50%" y="20%">Последствия коронакризиса</text>
+                    <text text-anchor="middle" x="50%" y="44%">в регионах Уральского</text>
+                    <text text-anchor="middle" x="50%" y="68%">Федерального Округа</text>
+                    <text text-anchor="middle" x="50%" y="92%">для рынка труда</text>
 
                 </symbol>
                 <g class="g-ants">
@@ -191,20 +191,20 @@
                         <figure id="nensk_f44" class="front nensk_h2"></figure>
                     </div>
                 </div>
-                <div class="oblast oblast-chelab"><p>×åëÿáèíñêàÿ<br />îáëàñòü</p></div>
-                <div class="oblast oblast-sverdlovsk"><p>Ñâåðäëîâñêàÿ<br />îáëàñòü</p></div>
-                <div class="oblast oblast-kurgan"><p>Êóðãàíñêàÿ<br />îáëàñòü</p></div>
+                <div class="oblast oblast-chelab"><p>Челябинская<br />область</p></div>
+                <div class="oblast oblast-sverdlovsk"><p>Свердловская<br />область</p></div>
+                <div class="oblast oblast-kurgan"><p>Курганская<br />область</p></div>
 
 
-                <div class="oblast oblast-tymen"><p>Òþìåíñêàÿ<br />îáëàñòü</p></div>
-                <div class="oblast oblast-mansisk"><p>Õàíòû-ìàíñèéñêèé<br />àâòîíîìíûé îêðóã</p></div>
-                <div class="oblast oblast-nensk"><p>ßìàëî-Íåíåöêèé <br />àâòîíîìíûé îêðóã</p></div>
+                <div class="oblast oblast-tymen"><p>Тюменская<br />область</p></div>
+                <div class="oblast oblast-mansisk"><p>Ханты-мансийский<br />автономный округ</p></div>
+                <div class="oblast oblast-nensk"><p>Ямало-Ненецкий <br />автономный округ</p></div>
 
             </div>
         </div>
         <script src="../js/scriptTheme.js"></script>
         <script src="../js/map.js"></script>
     </div>
-    
+
 </body>
 </html>
