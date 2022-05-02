@@ -1,10 +1,20 @@
 
 
-.wraper-teoret{
-    border:1px solid red;
-    width:100%;
-    background-color:var(--color1);
+.wraper-teoret {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 100%;
+    background-color: var(--color1);
 }
+    .wraper-teoret h2 {
+        font-size:40px;
+        color:var(--color4);
+        display: inline-block;
+    }
 
 .amp {
     font-family: Garamond,Baskerville,Georgia,serif !important;
@@ -63,14 +73,6 @@ a img {
     min-width: 800px;
     max-width: 900px;
 }
-
-    
-
-
-
-
-
-
 
 
     .photo-album .img1 {
