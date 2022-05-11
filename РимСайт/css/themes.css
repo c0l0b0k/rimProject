@@ -8,6 +8,7 @@
     --color2: #D5C9B1;
     --color3: #5F978E;
     --color4: #E15858;
+    --color-grey-crutch:#E7E7E7;
     --color1-l: #E6FFF7;
     --color2-l: #FFF1D4;
     --color3-l: #72B5AA;
@@ -28,12 +29,11 @@
         --green-hue: 120;
         --main-hue: var(--blue-hue);
         --theme-darkness: 1;
+        --color-grey-crutch: #C1B2B5;
         --color1: #A10115;
         --color2: #D72C16;
         --color3: #F0EFEA;
         --color4: #C1B2B5;
-
-       
         /*filter: invert(1) brightness(var(--theme-darkness));*/
     }
     :root[theme='theme2'] {
@@ -42,11 +42,11 @@
         --green-hue: 120;
         --main-hue: var(--blue-hue);
         --theme-darkness: 1;
+        --color-grey-crutch: #E7E7E7;
         --color1: #FE7A47;
         --color2: #FCFDFF;
         --color3: #D84030;
         --color4: #F4CA98;
-        
         /*filter: invert(1) brightness(var(--theme-darkness));*/
     }
     :root[theme='theme3'] {
@@ -55,11 +55,11 @@
         --green-hue: 120;
         --main-hue: var(--blue-hue);
         --theme-darkness: 1;
+        --color-grey-crutch: #E7E7E7;
         --color1: #26260D;
         --color2: #131306;
         --color3: #BFBF40;
         --color4: #FFFFFF;
-        
         /*filter: invert(1) brightness(var(--theme-darkness));*/
     }
     
