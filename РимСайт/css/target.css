@@ -1,11 +1,11 @@
 #block-target {
-    color: var(--color3);
+    /*color: var(--color3);*/
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color1);
+    /*background-color: var(--color1);*/
 }
    
 #target-wraper {
@@ -14,7 +14,7 @@
     padding: 50px;
     justify-content: center;
     align-items: center;
-    background-color: var(--color1);
+    /*background-color: var(--color1);*/
 }
 
 .target {
@@ -31,7 +31,7 @@
 
     .target svg {
         padding: 0;
-        background-color: var(--color1);
+        /*background-color: var(--color1);*/
         position: absolute;
         top: 0px;
         left: 0;
@@ -75,20 +75,20 @@
 }
 .main-target {
     font-size: 70px;
-    color: var(--color3);
+    /*color: var(--color3);*/
     filter: brightness(120%);
     top: -646px;
-    left: -5px;
+    left: -48px;
 }
 .main-target-text {
     font-size: 30px;
-    color: var(--color3);
+    /*color: var(--color3);*/
     top: -672px;
-    left: -7px;
+    left: -47px;
 }
 .main-task {
     font-size: 70px;
-    color: var(--color3);
+    /*color: var(--color3);*/
     filter: brightness(120%);
     top: -979px;
     left: 641px;
@@ -97,14 +97,14 @@
     font-size:20px;
 }
 .target-text1 {
-    top: -962px;
-    left: 605px;
+    top: -986px;
+    left: 600px;
 }
 .target-text2 {
-    top: -866px;
-    left: 605px;
+    top: -892px;
+    left: 600px;
 }
 .target-text3 {
-    top: -776px;
-    left: 605px;
+    top: -800px;
+    left: 600px;
 }

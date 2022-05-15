@@ -16,7 +16,7 @@
 
 .map svg {
         padding:0;
-        background-color:var(--color3);
+        /*background-color:var(--color3);*/
         position: absolute;
         top: 0px;
         left: 0;
@@ -36,8 +36,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: var(--color3);
+    /*justify-content: center;*/
+    /*background-color: var(--color3);*/
 }
 .oblast {
     z-index:1;

@@ -18,22 +18,33 @@
     filter: none;
 }
 .target-text1.predmet {
-    top: -930px;
-    left: 578px;
+    top: -950px;
+    left: 613px;
 }
 .target-text1.object{
-    top: -998px;
+    top: -1018px;
     left: 190px;
 }
 
 .main-target.hipoteza {
-    top: -1000px;
+    top: -1040px;
     left: 105px;
     color: var(--color2);
     filter: none;
 }
 .target-text1.hipoteza {
-    font-size:24px;
-    top: -1022px;
-    left: 167px;
+    font-size: 24px;
+    top: -1057px;
+    left: 148px;
+}
+#hipotezaImg {
+    position: relative;
+    top: -1396px;
+    left: -312px;
+    z-index:0;
+}
+#ObjectImg {
+    position: relative;
+    top: -1484px;
+    left: 809px;
 }
