@@ -1,0 +1,77 @@
+
+
+
+.wrapper-grafik{
+    width:1000px;
+}
+.grafik {
+    display: flex;
+    height:130px;
+}
+.grafic-img  {
+    height: 140px;
+}
+.grafik div {
+    display: flex;
+    align-items: center;
+}
+
+.grafik p {
+    display: inline-block;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 22px;
+}
+.grafik .grafik-right p {
+    width: 400px;
+}
+.grafik.grafik-right{
+    position:relative;
+    right:-526px;
+}
+.grafik-relative {
+    height: 400px;
+    z-index: -1;
+    position: relative;
+}
+.grafik-sectors {
+    top: 158px;
+    left: -877px;
+}
+.grafik-withoutWorkThousent {
+   
+    top: 10px;
+    left: -961px;
+}
+.grafik-withoutWorkPersent {
+    
+    top: -96px;
+    left: -579px;
+}
+.grafik-SalaryPersent {
+ 
+    top: -38px;
+    left: -851px;
+}
+.grafik-Salary {
+   
+    top: -180px;
+    left: -526px;
+}
+.grafic-img-sectors:hover ~ .grafik-sectors {
+    z-index: 10;
+}
+.grafic-img-withoutWorkThousent:hover ~ .grafik-withoutWorkThousent {
+    z-index: 10;
+}
+.grafik-img-withoutWorkPersent:hover ~ .grafik-withoutWorkPersent{
+    z-index:10;
+}
+.grafik-img-SalaryPersent:hover ~ .grafik-SalaryPersent {
+    z-index: 10;
+}
+.grafik-img-Salary:hover ~ .grafik-Salary {
+    z-index: 10;
+}

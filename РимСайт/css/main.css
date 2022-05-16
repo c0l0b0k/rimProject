@@ -37,6 +37,7 @@ body {
     font-family: 'comfortaa bold';
     padding: 0;
     margin: 0;
+    
 }
 #wrapper {
     display: flex;
@@ -44,7 +45,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: green;
-    background: linear-gradient(var(--color-light-blue),var(--color-dark-blue),var(--color-orange),var(--color-yellow),var(--color-orange),var(--color-dark-blue));
+    background: linear-gradient(var(--color-light-blue),var(--color-dark-blue),var(--color-orange),var(--color-yellow),var(--color-orange),var(--color-dark-blue),var(--color-yellow));
 }
 
 #mapOfSite{
@@ -54,7 +55,7 @@ body {
 }
  h2 {
     font-size: 40px;
-    color: var(--color4);
+    /*color: var(--color4);*/
     display: inline-block;
 }
 

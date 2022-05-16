@@ -1,0 +1,26 @@
+#target-wraper.method.research {
+    height: 650px;
+}
+.target.method.research {
+    height: 650px;
+}
+.main-target.research {
+    top: -724px;
+    left: 149px;
+}
+.target-text1.method.research {
+    top: -674px;
+    left: 246px;
+    margin-bottom: 90px;
+}
+    .target-text1.method.research.margin-less {
+        margin-bottom: 71px;
+    }
+.research-text {
+    position: relative;
+    top: -1227px;
+    left: 266px;
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 133px;
+}

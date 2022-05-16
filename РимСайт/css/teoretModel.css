@@ -6,13 +6,13 @@
     align-content: space-between;
     align-items: center;
     flex-direction: column;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 100%;
-    background-color: var(--color1);
+    /*background-color: var(--color1);*/
 }
     .wraper-teoret h2 {
         font-size:40px;
-        color:var(--color4);
+        /*color:var(--color4);*/
         display: inline-block;
     }
 
@@ -31,7 +31,7 @@ a.polaroid {
     padding: 10px 10px 20px 10px;
     width: 150px;
     border: 1px solid #BFBFBF;
-    background-color: var(--color3);
+    background-color: var(--color-light-blue);
     z-index: 2;
     font-size: 0.7em;
     -webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
@@ -68,7 +68,7 @@ a img {
     margin: 80px auto;
     max-width: 70em;
     height: 600px;
-    border:1px solid green;
+    /*border:1px solid green;*/
     margin-top: 5em;
     min-width: 800px;
     max-width: 900px;
