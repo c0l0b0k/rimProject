@@ -2,3 +2,8 @@
     font-family: 'Comfortaa bold' ; /* ָלÿ רנטפעא */
     src: url(../fonts/Comfortaa.ttf); /* ֿףעü ך פאיכף סמ רנטפעמל */
 }
+
+@font-face {
+    font-family: Adventure; /* ָלÿ רנטפעא */
+    src: url(../fonts/adventure.ttf); /* ֿףעü ך פאיכף סמ רנטפעמל */
+}

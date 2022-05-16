@@ -25,18 +25,19 @@
     }
 #map-wraper {
     height:700px;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     padding: 15px;
     justify-content: center;
     align-items: center;
 }
 #block-map {
-
+    margin-top:95px;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     /*background-color: var(--color3);*/
 }
 .oblast {
@@ -382,7 +383,7 @@
     z-index:10;
 }
 .stage{
-  top:-500px;
+  top:-1200px;
 }
 
 

@@ -8,6 +8,7 @@
     flex-direction: column;
     /*border: 1px solid red;*/
     width: 100%;
+    margin-bottom:70px;
     /*background-color: var(--color1);*/
 }
     .wraper-teoret h2 {
@@ -31,7 +32,7 @@ a.polaroid {
     padding: 10px 10px 20px 10px;
     width: 150px;
     border: 1px solid #BFBFBF;
-    background-color: var(--color-light-blue);
+    background-color: var(--color-yellow);
     z-index: 2;
     font-size: 0.7em;
     -webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);

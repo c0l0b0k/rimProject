@@ -1,0 +1,28 @@
+#target-wraper.conclusion-wraper{
+    margin-top:100px;
+}
+.main-target.method.conclusion {
+    top: -753px;
+    left: 186px;
+    text-decoration:underline;
+}
+.target-text1.conclusion {
+    top: -645px;
+    left: 236px;
+}
+.target-text2.conclusion {
+    top: -554px;
+    left: 236px;
+}
+.target-text3.conclusion {
+    top: -455px;
+    left: 236px;
+}
+#ConclusionImg {
+    position: relative;
+    top: -308px;
+    right: 0;
+}
+#block-target.conclusion {
+    justify-content: flex-start;
+}

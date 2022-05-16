@@ -1,0 +1,25 @@
+.wrapper-crossword {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+#crossword-button {
+    background-color: var(--color-orange);
+    color: var(--color-gray-font);
+    text-decoration:none;
+    display: block;
+    height: 100px;
+    width: 400px;
+    border: solid 5px var(--color-gray-font);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+    #crossword-button p {
+        font-family: Adventure;
+        font-size:30px;
+        margin: 0 auto;
+        text-align: center;
+    }
