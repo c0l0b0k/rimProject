@@ -7,7 +7,7 @@
         puzz.data = entryData;
 
         
-        this.after('<div id="puzzle-clues"><h2>По вертикали</h2><ol id="across"></ol><h2>По горизонтали</h2><ol id="down"></ol></div>');
+        this.after('<div id="puzzle-clues"><h2>РџРѕ РІРµСЂС‚РёРєР°Р»Рё</h2><ol id="across"></ol><h2>РџРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё</h2><ol id="down"></ol></div>');
 
        
         var tbl = ['<table id="puzzle" class="crosswordtable">'],
