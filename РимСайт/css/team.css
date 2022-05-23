@@ -1,0 +1,37 @@
+.teamImg {
+    width: 80%;
+}
+
+.teamH2 {
+    margin-bottom: 0px;
+}
+
+.team {
+   
+    /*padding-bottom:40px;*/
+    background: linear-gradient(transparent 80%, var(--color-gray-font));
+}
+.team a{
+    display:block;
+}
+.vk1 {
+    position: relative;
+    left: -14%;
+    top: -637px;
+}
+.vk2 {
+    position: relative;
+    left: -14%;
+    top: -270px;
+}
+.vk3 {
+    position: relative;
+    right: -20%;
+    top: -837px;
+}
+
+.vk4 {
+    position: relative;
+    right: -21%;
+    top: -470px;
+}
