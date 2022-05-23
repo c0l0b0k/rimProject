@@ -1,6 +1,25 @@
-.sources h2{
-    text-decoration:underline;
+.sources {
+    background: linear-gradient(transparent 80%, var(--color-gray-font));
+    padding-bottom:90px;
+}
+.sources h2 {
+    text-decoration: underline;
 }
 .ul-sources{
-    width:1000px;
+    width:1200px;
+    margin:0 auto;
+    font-size:19px;
+    
+}
+    .ul-sources li a {
+        display: block;
+        width: 1000px;
+        color: var(--color-gray-font);
+        text-decoration: none;
+    }
+        .ul-sources li a p {
+            text-decoration: none;
+        }
+.text-underline{
+    text-decoration:underline !important;
 }

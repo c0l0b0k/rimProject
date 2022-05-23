@@ -1,4 +1,7 @@
-
+.infoWidht {
+    margin-top:80px;
+    width: 80%;
+}
 
 header {
     width: 100%;
@@ -8,7 +11,6 @@ header {
     align-items: center;
     font-size: 37px;
     line-height: 190%;
-    
     text-align: center;
     height: 100vh;
 }
@@ -37,8 +39,8 @@ body {
     font-family: 'comfortaa bold';
     padding: 0;
     margin: 0;
-    
 }
+
 #wrapper {
     display: flex;
     flex-direction: column;
@@ -48,16 +50,15 @@ body {
     background: linear-gradient(var(--color-light-blue),var(--color-dark-blue),var(--color-orange),var(--color-yellow),var(--color-orange),var(--color-dark-blue),var(--color-yellow));
 }
 
-#mapOfSite{
+#mapOfSite {
     border: 7px solid var(--color1);
-    width:100%;
-    height:300px;
+    width: 100%;
+    height: 300px;
 }
- h2 {
-    font-size: 40px;
+
+h2 {
+    font-size: 70px;
     /*color: var(--color4);*/
     display: inline-block;
-    text-align:center;
+    text-align: center;
 }
-
-
