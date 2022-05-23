@@ -16,10 +16,12 @@
     --color-gray-font: #353535;
     --color-light-blue: #D2FDFF;
     --color-dark-blue: #B4DFE5;
+    --color-navy-blue: #0B68A5;
+    --color-navy-blue-light: #1976AF;
     --color-siniy: #3033C6C;
     --color-orange: #F4976C;
     --color-yellow: #FBE8A6;
-    --color-transparent:transparent;
+    --color-transparent: transparent;
     /*--nav-bg-color: hsl(var(--main-hue), 50%, 50%);
     --nav-text-color: hsl(var(--main-hue), 50%, 10%);
     --container-bg-color: hsl(var(--main-hue), 50%, 95%);

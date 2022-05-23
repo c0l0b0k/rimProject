@@ -17,8 +17,9 @@
     <link rel="stylesheet" href="../css/grafik.css"/>
     <link rel="stylesheet" href="../css/crosswordBlock.css"/>
     <link rel="stylesheet" href="../css/conclusion.css"/>
-    <link rel="stylesheet" href="../css/sources.css"/>
+    
     <link rel="stylesheet" href="../css/footer.css"/>
+
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet" type="text/css">
@@ -64,7 +65,22 @@
                 </ul>
             </li>
             <li>
-                <a href="" class="deactive"><img src="icons8-folder-16.png" alt="">Раздел 2</a>
+                <a href="" class="deactive"><img src="icons8-folder-16.png" alt="">Карта сайта</a>
+                <ul>
+
+                    <li><a href="#main1">главная</a></li>
+                    <li><a href="#block-target">цели и задачи</a></li>
+                    <li><a href="#dezing">дизайн проекта</a></li>
+                    <li><a href="#methodResearch">методы исследования</a></li>
+                    <li><a href="#teoretModel">теоретическая модель</a></li>
+                    <li><a href="#staticData">статистические данные</a></li>
+                    <li><a href="#block-map">интерактивная карта</a></li>
+                    <li><a href="#crosswordLink">кроссворд</a></li>
+                    <li><a href="#conclusionLink">выводы проекта</a></li>
+                    <li><a href="#team">наша команда</a></li>
+                    <li><a target="blank" href="../html/sources.html">источники</a></li>
+                    
+                </ul>
             </li>
         </ul>
     </nav>
@@ -73,7 +89,7 @@
         <header>
 
 
-            <h1>
+            <h1 id="main1">
                 Последствия коронакризиса<br />
                 в регионах Уральского<br />
                 Федерального Округа<br />
@@ -182,7 +198,8 @@
 
             </div>
         </div>
-        <div id="block-target" class="object">
+        
+        <div  class="object">
             <div class="object" id="target-wraper">
                 <div class="target object">
                     <img src="../imagies/target.png">
@@ -229,7 +246,7 @@
 
             </div>
         </div>
-        <div id="block-target" class="method">
+        <div id="dezing" class="method">
             <div class="method" id="target-wraper">
                 <div class="target method">
                     <img src="../imagies/target.png">
@@ -322,7 +339,7 @@
             </div>
 
         </div>
-        <div id="block-target" class="method research">
+        <div id="methodResearch" class="method research">
             <div class="method research" id="target-wraper">
                 <div class="target method research">
                     <img src="../imagies/target.png">
@@ -446,7 +463,7 @@
             </div>
 
         </div>
-        <div class="wraper-teoret">
+        <div id="teoretModel" class="wraper-teoret">
             <h2>Теоретическая модель</h2>
             <div class="photo-album">
 
@@ -474,7 +491,7 @@
         <img class="infoWidht" src="../imagies/infoGrafikaEmploer.png" />
         <div class=" block ">
 
-            <h2>Cтатистические данные</h2>
+            <h2 id="staticData">Cтатистические данные</h2>
             <div class="wrapper-grafik">
                 <div class="grafik">
                     <img class="grafic-img grafic-img-sectors" src="../imagies/grafikImg.png" />
@@ -650,7 +667,7 @@
 
             </div>
         </div>
-        <div class="crossword-block block ">
+        <div id="crosswordLink" class="crossword-block block ">
 
             <h2>Проверь свои знания о коронакризисе!<br />Cыграй в игру!</h2>
             <div class="wrapper-crossword">
@@ -663,7 +680,7 @@
 
         <div class="conclusion" id="block-target">
             <div class="conclusion-wraper" id="target-wraper">
-                <div class="target">
+                <div  class="target">
                     <img src="../imagies/target.png">
                     <svg viewBox="0 0 4165.4238 2489.4915">
 
@@ -710,7 +727,7 @@
                 </div>
 
 
-                <div class="target-text main-target  method m1 conclusion"><p>Bыводы проекта</p></div>
+                <div class="target-text main-target  method m1 conclusion" id="conclusionLink"> <p>Bыводы проекта</p></div>
 
                 <div class="target-text text-task target-text1 conclusion"><p>Прямая корреляция в показателях роста или падения заработной <br />платы и безработицы относительно разделения секторов труда</p></div>
                 <div class="target-text text-task target-text2 conclusion"><p>Сильнее пострадали регионы с преобладанием сфер<br />торговли и услуг, строительства.</p></div>
@@ -719,7 +736,7 @@
             </div>
             <img id="ConclusionImg" src="../imagies/conclusion.png">
         </div>
-        <div class="team  block ">
+        <div id="team" class="team  block ">
             <h2 class="teamH2">Появились вопросы?<br />Напиши нам!</h2>
             <img class="teamImg" src="../imagies/ourTeam.png" />
         </div>
