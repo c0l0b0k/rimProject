@@ -1,8 +1,22 @@
 
 
-
+.squareColorMap {
+    position: relative;
+    top: -584px;
+    left: -181px;
+    font-size: 20px;
+    
+}
+    .squareColorMap p{
+        z-index:10 !important;
+    }
+    .squareColor {
+        height: 20px;
+        width: 20px;
+        background-color: red;
+    }
 .map {
-    padding:  0;
+    padding: 0;
     width: 755px;
     position: relative;
 }
@@ -55,52 +69,52 @@
        
     }
 #oblast-chelab1.active {
-    top: -308px;
+    top: -298px;
     left: 17px;
 }
 #oblast-chelab2.active {
-    top: -308px;
+    top: -150px;
     left: 67px;
 }
 #oblast-kurgan1.active {
-    top: -280px;
+    top: -180px;
     left: 125px;
 }
 #oblast-kurgan2.active{
-    top: -280px;
+    top: -153px;
     left: 175px;
 }
 #oblast-sverdlovsk1.active {
-    top: -393px;
+    top: -273px;
     left: 142px;
 }
 #oblast-sverdlovsk2.active {
-    top: -393px;
+    top: -258px;
     left: 192px;
 }
 #oblast-tymen1.active {
-    top: -285px;
+    top: -115px;
     left: 226px;
 }
 #oblast-tymen2.active {
-    top: -285px;
+    top: -237px;
     left: 276px;
 }
 #oblast-mansisk1.active {
-    top: -405px;
+    top: -275px;
     left: 321px;
 }
 #oblast-mansisk2.active {
-    top: -405px;
+    top: -345px;
     left: 371px;
 }
 #oblast-nensk1.active {
-    top: -493px;
+    top: -343px;
     left: 500px;
 }
 
 #oblast-nensk2.active {
-    top: -493px;
+    top: -581px;
     left: 550px;
 }
 
@@ -384,6 +398,7 @@
 }
 .stage{
   top:-1200px;
+  left:-10000000px;
 }
 
 

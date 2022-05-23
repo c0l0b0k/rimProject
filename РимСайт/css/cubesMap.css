@@ -88,5 +88,46 @@ figure {
 }
 
 .chelab_h1 {
-    height: 100px;/*-308px;*/  
+    height: 190px;/*-308px;*/  
+}
+.kurgan_h1 {
+    height: 100px;
+}
+.sverdlovsk_h1 {
+    height: 80px;
+}
+.tymen_h1 {
+    height: 50px;
+}
+
+.mansisk_h1 {
+    height: 70px;
+}
+.nensk_h1 {
+    height: 50px;
+}
+
+
+.chelab_h2 {
+    height: 42px; /*-308px;*/
+}
+
+.kurgan_h2 {
+    height: 73px;
+}
+
+.sverdlovsk_h2 {
+    height: 65px;
+}
+
+.tymen_h2 {
+    height: 179px;
+}
+
+.mansisk_h2 {
+    height: 140px;
+}
+
+.nensk_h2 {
+    height: 288px;
 }
