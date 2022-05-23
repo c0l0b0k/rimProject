@@ -1,8 +1,17 @@
 .infoWidht {
-    margin-top:80px;
+    margin-top:0px;
     width: 80%;
 }
-
+.teamImg {
+    width:80%;
+}
+.teamH2{
+    margin-bottom:0px;
+}
+.team {
+    /*padding-bottom:40px;*/
+    background: linear-gradient(transparent 80%, var(--color-gray-font));
+}
 header {
     width: 100%;
     display: flex;
