@@ -13,8 +13,14 @@
     .squareColor {
         height: 20px;
         width: 20px;
-        background-color: red;
+        
     }
+.squareColor1 {
+    background-color: var(--color-gray-font);
+}
+.squareColor2 {
+    background-color: #f5e9cf;
+}
 .map {
     padding: 0;
     width: 755px;
@@ -55,18 +61,17 @@
     /*background-color: var(--color3);*/
 }
 .oblast {
-    z-index:1;
-    fill: var(--color3);
-    stroke: var(--color1);
+    z-index: 1;
+    fill: var(--color-yellow);
+    stroke: var(--color-gray-font);
     stroke-width: 5px;
     cursor: pointer;
     pointer-events: all;
 }
-    
-.oblast:hover {
+
+    .oblast:hover {
         /*filter: sepia(150%);*/
-        fill:var(--color4);
-       
+        fill: var(--color-orange);
     }
 #oblast-chelab1.active {
     top: -298px;
@@ -381,7 +386,7 @@
 
 
 .oblast {
-    color: var(--color1);
+    color: var(--color-gray-font);
     position: relative;
     height: 0;
 }

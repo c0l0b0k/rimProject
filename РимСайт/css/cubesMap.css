@@ -20,9 +20,14 @@ figure {
     position: absolute;
     width: 19px;
     height: 200px;
-    background-color: var(--color4);
+    /*background-color: var(--color4);*/
 }
-
+.cube-1 figure {
+    background-color: var(--color-gray-font);
+}
+.cube-2 figure {
+    background-color: #f5e9cf;
+}
 .cube {
     -webkit-transform-style: preserve-3d;
     
